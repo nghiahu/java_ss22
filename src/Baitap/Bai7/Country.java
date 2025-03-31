@@ -1,8 +1,7 @@
 package Baitap.Bai7;
 
-import java.io.Serializable;
 
-public class Country implements Serializable {
+public class Country {
     private int id;
     private String code;
     private String name;
@@ -39,4 +38,5 @@ public class Country implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
 }
